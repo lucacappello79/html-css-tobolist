@@ -5,25 +5,25 @@
 }
 
 body{
-    background-color: lightgrey;
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 nav{
-    position: relative;
     background-color: white;
     height: 80px;
     padding-left: 30px;
     padding-top: 15px;
 }
 
+nav img{
+    vertical-align: middle;
+}
+
 h1{
     display: inline-block;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 38px;
-    margin-left: 100px;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    vertical-align: middle;
 }
 
 main{
@@ -34,11 +34,11 @@ main{
 }
 
 #top-section{
-    height: 50px;
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: white;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
 }
 
@@ -53,10 +53,9 @@ main{
 
 .selection-button{
     background-color: white;
-    color: lightgray;
     padding: 7px;
     border-radius: 5px;
-    border-color: lightgrey;
+    opacity: 0.2;
 }
 
 #bottom-section{
@@ -78,7 +77,6 @@ main{
 
 .list{
     line-height: 50px;
-    font-weight: bold;
 }
 
 div span{
