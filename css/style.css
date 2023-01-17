@@ -80,21 +80,35 @@ div span{
     font-size: 20px;
     margin-bottom: 10px;
 }
-
-.editorial{
+.button{
     color: white;
     padding: 5px;
     border-radius: 10px;
     border: none;
-    background-color: cornflowerblue;
     margin-left: 10px;
+}
+
+
+.editorial{
+    background-color: cornflowerblue;   
 }
  
 .goals{
-    color: white;
-    padding: 5px;
-    border-radius: 10px;
-    border: none;
-    background-color: purple;
-    margin-left: 10px;
+    background-color: rgba(145, 71, 194, 0.89);
+}
+
+.recruiting{
+    background-color: rgb(39, 199, 111);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: deeppink;
+}
+
+.sales{
+    background-color: rgb(135, 206, 30);
 }
