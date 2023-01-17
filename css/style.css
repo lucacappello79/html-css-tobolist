@@ -26,7 +26,7 @@ h1{
 
 main{
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 80%;
     background-color: white;
 }
@@ -40,25 +40,25 @@ main{
 
 }
 
-.button.one{
+.task-button{
     color: white;
     background-color: cornflowerblue;
-    padding: 5px;
+    padding: 7px;
     width: 80px;
     border-radius: 5px;
     border: none;
 }
 
-.button.two{
+.selection-button{
     background-color: white;
-    color: gray;
-    padding: 5px;
+    color: lightgray;
+    padding: 7px;
     border-radius: 5px;
-    border-color: grey;
+    border-color: lightgrey;
 }
 
 #bottom-section{
-    height: 800px;
+    height: 700px;
     padding-top: 30px;
     padding-left: 50px;
     background-color: white;
@@ -68,18 +68,21 @@ main{
     margin-bottom: 25px;
 }
 
+.title{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 7px;
+}
+
 .list{
     line-height: 50px;
+    font-weight: bold;
 }
 
 div span{
     margin-right: 10px;
 }
 
-.title{
-    font-size: 20px;
-    margin-bottom: 10px;
-}
 .button{
     color: white;
     padding: 6px 10px;
@@ -87,8 +90,8 @@ div span{
     border: none;
     margin-left: 10px;
     font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 
 .editorial{
     background-color: cornflowerblue;   
