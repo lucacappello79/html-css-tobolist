@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+nav{
+    background-color: white;
+    height: 80px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+nav span{
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: bolder;
+}
+
+main{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    background-color: white;
+}
+
+#top-section{
+    height: 50px;
+    padding-left: 50px;
+    background-color: black;
+    border-bottom: 1px solid gray;
+}
+
+
+button{
+    color: white;
+    background-color: cornflowerblue;
+}
