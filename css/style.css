@@ -64,8 +64,16 @@ main{
     background-color: red;
 }
 
+.task,.day{
+    margin-bottom: 25px;
+}
+
+.list{
+    line-height: 50px;
+}
+
 div span{
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .title{
@@ -81,4 +89,12 @@ div span{
     background-color: cornflowerblue;
     margin-left: 10px;
 }
-    
+ 
+.goals{
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: purple;
+    margin-left: 10px;
+}
